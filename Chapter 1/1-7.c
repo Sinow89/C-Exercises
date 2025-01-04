@@ -6,7 +6,7 @@
 
 int main()
 {
-    int c = getchar() != EOF;
+    int c = EOF;
     printf("%d", c);
 
 }
