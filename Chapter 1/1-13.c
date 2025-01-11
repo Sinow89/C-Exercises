@@ -2,6 +2,7 @@
 // Created by chris on 2025-01-04.
 //
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAX_WORD_LENGTH 20  // Maximum word length we want to count
 
@@ -50,6 +51,6 @@ int main() {
         printf(" %d ", i);  // Print the word length numbers at the bottom
     }
     printf("\n");
-
+    system("pause");
     return 0;
 }
